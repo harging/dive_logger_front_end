@@ -55,7 +55,7 @@ const DiveContainer = () => {
         </div>
       ) : (
         <div className="loading">
-          Please wait around 15 seconds for the dives to load my friend
+          Please wait around 15 seconds for the dives to load
         </div>
       )}
     </>
