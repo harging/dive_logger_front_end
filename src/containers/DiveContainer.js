@@ -22,7 +22,6 @@ const DiveContainer = () => {
     const dives = await response.json()
     setDives(dives)
   }
-
   const handleDiveSelected = (id) => {
     setSelectedDiveId(id)
     getSamplePoints(id)
